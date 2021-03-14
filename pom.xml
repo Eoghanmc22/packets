@@ -60,10 +60,9 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.steveice10</groupId>
-            <artifactId>packetlib</artifactId>
-            <version>1.9</version>
-            <scope>compile</scope>
+            <groupId>com.github.Eoghanmc22</groupId>
+            <artifactId>McPacketLib</artifactId>
+            <version>e6af0f7876</version>
         </dependency>
         <dependency>
             <groupId>com.github.steveice10</groupId>

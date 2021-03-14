@@ -15,7 +15,7 @@ import java.io.IOException;
 
 @Data
 @Setter(AccessLevel.NONE)
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 public class ServerMultiBlockChangePacket implements Packet {
     private int chunkX;
     private int chunkY;

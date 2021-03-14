@@ -10,7 +10,7 @@ import java.io.IOException;
 @Data
 @ToString
 @EqualsAndHashCode
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 public class ClientDisplayedRecipePacket implements Packet {
     private @NonNull String recipeId;
 

@@ -25,7 +25,7 @@ import java.util.Map;
 
 @Data
 @Setter(AccessLevel.NONE)
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 @AllArgsConstructor
 public class ServerAdvancementsPacket implements Packet {
     private static final int FLAG_HAS_BACKGROUND_TEXTURE = 0x01;

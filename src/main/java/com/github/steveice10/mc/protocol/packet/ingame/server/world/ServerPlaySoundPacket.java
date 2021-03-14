@@ -20,7 +20,7 @@ import java.io.IOException;
 
 @Data
 @Setter(AccessLevel.NONE)
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 @AllArgsConstructor
 public class ServerPlaySoundPacket implements Packet {
     private @NonNull Sound sound;

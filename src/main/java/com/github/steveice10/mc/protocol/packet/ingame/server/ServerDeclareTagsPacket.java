@@ -17,7 +17,7 @@ import java.util.Map;
 
 @Data
 @Setter(AccessLevel.NONE)
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 @AllArgsConstructor
 public class ServerDeclareTagsPacket implements Packet {
     private @NonNull Map<String, int[]> blockTags;

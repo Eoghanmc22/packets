@@ -16,7 +16,7 @@ import java.util.Arrays;
 
 @Data
 @Setter(AccessLevel.NONE)
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 public class ServerTabCompletePacket implements Packet {
     private int transactionId;
     private int start;

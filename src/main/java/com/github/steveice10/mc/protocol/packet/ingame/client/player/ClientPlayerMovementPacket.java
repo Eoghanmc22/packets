@@ -13,7 +13,7 @@ import java.io.IOException;
 
 @Data
 @Setter(AccessLevel.NONE)
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 @AllArgsConstructor
 public class ClientPlayerMovementPacket implements Packet {
     private boolean onGround;

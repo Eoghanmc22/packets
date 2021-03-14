@@ -13,7 +13,7 @@ import java.io.IOException;
 
 @Data
 @Setter(AccessLevel.NONE)
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 @AllArgsConstructor
 public class ServerUnloadChunkPacket implements Packet {
     private int x;

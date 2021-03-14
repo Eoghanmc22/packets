@@ -16,7 +16,7 @@ import java.io.IOException;
 
 @Data
 @Setter(AccessLevel.NONE)
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 @AllArgsConstructor
 public class ServerEntityEffectPacket implements Packet {
     private static final int FLAG_AMBIENT = 0x01;

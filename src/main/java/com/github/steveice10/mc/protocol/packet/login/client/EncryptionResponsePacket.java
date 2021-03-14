@@ -20,7 +20,7 @@ import java.security.PublicKey;
 
 @ToString
 @EqualsAndHashCode
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 public class EncryptionResponsePacket implements Packet {
     private @NonNull byte[] sharedKey;
     private @NonNull byte[] verifyToken;

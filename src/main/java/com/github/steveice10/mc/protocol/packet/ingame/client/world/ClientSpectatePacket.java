@@ -15,7 +15,7 @@ import java.util.UUID;
 
 @Data
 @Setter(AccessLevel.NONE)
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 @AllArgsConstructor
 public class ClientSpectatePacket implements Packet {
     private @NonNull UUID target;

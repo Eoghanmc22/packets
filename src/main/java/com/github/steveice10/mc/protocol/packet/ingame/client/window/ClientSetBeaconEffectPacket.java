@@ -13,7 +13,7 @@ import java.io.IOException;
 
 @Data
 @Setter(AccessLevel.NONE)
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 @AllArgsConstructor
 public class ClientSetBeaconEffectPacket implements Packet {
     private int primaryEffect;

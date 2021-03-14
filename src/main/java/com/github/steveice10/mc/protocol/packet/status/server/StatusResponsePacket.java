@@ -26,7 +26,7 @@ import java.nio.charset.StandardCharsets;
 
 @Data
 @Setter(AccessLevel.NONE)
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 @AllArgsConstructor
 public class StatusResponsePacket implements Packet {
     private @NonNull ServerStatusInfo info;

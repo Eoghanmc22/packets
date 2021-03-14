@@ -17,7 +17,7 @@ import java.util.List;
 
 @Data
 @Setter(AccessLevel.NONE)
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 public class ServerPlayerPositionRotationPacket implements Packet {
     private double x;
     private double y;

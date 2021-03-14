@@ -12,7 +12,7 @@ import java.io.IOException;
 @Data
 @ToString
 @EqualsAndHashCode
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 public class ClientCraftingBookStatePacket implements Packet {
     private @NonNull CraftingBookStateType type;
     private boolean bookOpen;

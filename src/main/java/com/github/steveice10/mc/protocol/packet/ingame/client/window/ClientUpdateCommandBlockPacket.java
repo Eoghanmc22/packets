@@ -17,7 +17,7 @@ import java.io.IOException;
 
 @Data
 @Setter(AccessLevel.NONE)
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 @AllArgsConstructor
 public class ClientUpdateCommandBlockPacket implements Packet {
     private static final int FLAG_TRACK_OUTPUT = 0x01;

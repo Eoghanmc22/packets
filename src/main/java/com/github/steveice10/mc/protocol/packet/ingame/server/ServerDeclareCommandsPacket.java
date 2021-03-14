@@ -28,7 +28,7 @@ import java.io.IOException;
 
 @Data
 @Setter(AccessLevel.NONE)
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 @AllArgsConstructor
 public class ServerDeclareCommandsPacket implements Packet {
     private static final int FLAG_TYPE_MASK = 0x03;

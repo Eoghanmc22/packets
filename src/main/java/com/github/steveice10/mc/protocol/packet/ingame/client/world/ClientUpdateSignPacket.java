@@ -15,7 +15,7 @@ import java.util.Arrays;
 
 @Data
 @Setter(AccessLevel.NONE)
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 public class ClientUpdateSignPacket implements Packet {
     private @NonNull Position position;
     private @NonNull String lines[];

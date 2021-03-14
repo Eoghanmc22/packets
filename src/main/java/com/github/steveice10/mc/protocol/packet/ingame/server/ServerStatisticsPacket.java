@@ -30,7 +30,7 @@ import java.util.Map;
 
 @Data
 @Setter(AccessLevel.NONE)
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 @AllArgsConstructor
 public class ServerStatisticsPacket implements Packet {
     private @NonNull Map<Statistic, Integer> statistics = new HashMap<Statistic, Integer>();

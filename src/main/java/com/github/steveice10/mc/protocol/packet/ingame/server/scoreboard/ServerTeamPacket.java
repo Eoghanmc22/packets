@@ -22,7 +22,7 @@ import java.util.Arrays;
 
 @Data
 @Setter(AccessLevel.NONE)
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 public class ServerTeamPacket implements Packet {
     private @NonNull String teamName;
     private @NonNull TeamAction action;

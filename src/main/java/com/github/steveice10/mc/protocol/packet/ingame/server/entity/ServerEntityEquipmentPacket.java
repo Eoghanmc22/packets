@@ -20,7 +20,7 @@ import java.util.List;
 
 @Data
 @Setter(AccessLevel.NONE)
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 @AllArgsConstructor
 public class ServerEntityEquipmentPacket implements Packet {
     private int entityId;

@@ -23,7 +23,7 @@ import java.io.IOException;
 
 @Data
 @Setter(AccessLevel.NONE)
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 public class ClientWindowActionPacket implements Packet {
     public static final int CLICK_OUTSIDE_NOT_HOLDING_SLOT = -999;
 

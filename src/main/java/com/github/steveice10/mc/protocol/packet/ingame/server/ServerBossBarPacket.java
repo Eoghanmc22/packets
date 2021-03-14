@@ -20,7 +20,7 @@ import java.util.UUID;
 
 @Data
 @Setter(AccessLevel.NONE)
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 public class ServerBossBarPacket implements Packet {
     private @NonNull UUID uuid;
     private @NonNull BossBarAction action;

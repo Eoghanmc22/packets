@@ -16,7 +16,7 @@ import java.util.Arrays;
 
 @Data
 @Setter(AccessLevel.NONE)
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 public class ServerUnlockRecipesPacket implements Packet {
     private @NonNull UnlockRecipesAction action;
 

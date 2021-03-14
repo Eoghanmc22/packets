@@ -18,7 +18,7 @@ import java.io.IOException;
 
 @Data
 @Setter(AccessLevel.NONE)
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 public class ServerScoreboardObjectivePacket implements Packet {
     private @NonNull String name;
     private @NonNull ObjectiveAction action;

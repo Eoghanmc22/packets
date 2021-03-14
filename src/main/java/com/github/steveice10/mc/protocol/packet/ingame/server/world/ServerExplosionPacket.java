@@ -17,7 +17,7 @@ import java.util.List;
 
 @Data
 @Setter(AccessLevel.NONE)
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 @AllArgsConstructor
 public class ServerExplosionPacket implements Packet {
     private float x;

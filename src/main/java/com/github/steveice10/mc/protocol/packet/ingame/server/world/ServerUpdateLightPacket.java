@@ -15,7 +15,7 @@ import java.util.Arrays;
 
 @Data
 @Setter(AccessLevel.NONE)
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 public class ServerUpdateLightPacket implements Packet {
     private static final int NUM_ENTRIES = 18;
     private static final int EMPTY_SIZE = 4096;

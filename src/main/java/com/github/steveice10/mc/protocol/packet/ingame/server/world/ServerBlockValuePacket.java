@@ -30,7 +30,7 @@ import java.io.IOException;
 
 @Data
 @Setter(AccessLevel.NONE)
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 @AllArgsConstructor
 public class ServerBlockValuePacket implements Packet {
     private static final int NOTE_BLOCK = 74;

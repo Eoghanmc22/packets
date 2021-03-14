@@ -17,7 +17,7 @@ import java.io.IOException;
 
 @Data
 @Setter(AccessLevel.NONE)
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 @AllArgsConstructor
 public class ServerPlayBuiltinSoundPacket implements Packet {
     private @NonNull BuiltinSound sound;

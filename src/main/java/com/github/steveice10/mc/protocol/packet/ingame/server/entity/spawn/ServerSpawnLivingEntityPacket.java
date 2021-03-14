@@ -17,7 +17,7 @@ import java.util.UUID;
 
 @Data
 @Setter(AccessLevel.NONE)
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 @AllArgsConstructor
 public class ServerSpawnLivingEntityPacket implements Packet {
     private int entityId;

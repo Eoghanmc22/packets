@@ -20,7 +20,7 @@ import java.util.UUID;
 
 @Data
 @Setter(AccessLevel.NONE)
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 @AllArgsConstructor
 public class ServerChatPacket implements Packet {
     private @NonNull Message message;

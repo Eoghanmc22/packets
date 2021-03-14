@@ -20,7 +20,7 @@ import java.io.IOException;
 
 @Data
 @Setter(AccessLevel.NONE)
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@NoArgsConstructor()
 @AllArgsConstructor
 public class ServerStopSoundPacket implements Packet {
     private static final int FLAG_CATEGORY = 0x01;
